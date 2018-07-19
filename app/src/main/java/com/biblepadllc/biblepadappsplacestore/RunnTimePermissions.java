@@ -1,4 +1,4 @@
-package com.biblepadllc.biblepadappsplace;
+package com.biblepadllc.biblepadappsplacestore;
 
 import android.Manifest;
 import android.app.Activity;

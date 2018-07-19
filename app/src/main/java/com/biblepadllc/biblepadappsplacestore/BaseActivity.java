@@ -1,4 +1,4 @@
-package com.biblepadllc.biblepadappsplace;
+package com.biblepadllc.biblepadappsplacestore;
 
 import android.app.ProgressDialog;
 import android.graphics.Bitmap;
@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
 
 /**
  * Created by jubayer on 7/11/2017.

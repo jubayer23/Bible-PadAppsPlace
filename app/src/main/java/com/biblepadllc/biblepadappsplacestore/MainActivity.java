@@ -1,20 +1,19 @@
-package com.biblepadllc.biblepadappsplace;
+package com.biblepadllc.biblepadappsplacestore;
 
 import android.app.DownloadManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.DownloadListener;
-import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+
 
 public class MainActivity extends BaseActivity {
 

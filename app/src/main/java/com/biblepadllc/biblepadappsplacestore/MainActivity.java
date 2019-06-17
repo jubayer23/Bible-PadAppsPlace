@@ -95,7 +95,7 @@ public class MainActivity extends BaseActivity {
                 dm.enqueue(request);
             }
         });
-        myWebView.loadUrl("http://199.168.139.219:8084/AppStore/home.jsp");
+        myWebView.loadUrl("http://biblepadapps.com:8084/AppStore/home.jsp");
     }
 
     @Override

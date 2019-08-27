@@ -61,7 +61,7 @@ public class MainActivity extends BaseActivity {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         // Allow third party cookies for Android Lollipop
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             CookieManager cookieManager = CookieManager.getInstance();
             cookieManager.setAcceptThirdPartyCookies(myWebView,true);
         }
@@ -75,7 +75,7 @@ public class MainActivity extends BaseActivity {
         myWebView.getSettings().setSupportMultipleWindows(true);
         String appCachePath = getApplicationContext().getCacheDir().getAbsolutePath();
         myWebView.getSettings().setAllowFileAccess(true);
-        myWebView.getSettings().setAppCachePath(appCachePath);
+        myWebView.getSettings().setAppCachePath(appCachePath);*/
 
         myWebView.setDownloadListener(new DownloadListener() {
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
